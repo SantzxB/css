@@ -1,0 +1,42 @@
+/* RESET DE CONFIGURAÇÕES DO NAVEGADOR */
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:tomato;
+    background-image: url("assets/human-heart.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align:center;
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 0;
+}
+p {
+    text-align: justify;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+a{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+button{
+    display: block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto;
+    color:red;
+}
